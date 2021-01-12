@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Light Dark Mode</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <div class="container flex-center">
+        <!-- Navigation -->
+        <nav id="nav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <!-- Dark Mode Switch -->
+        <div class="theme-switch-wrapper">
+          <span id="toggle-icon">
+            <span class="toggle-text">Light Mode</span>
+            <i class="fas fa-sun"></i>
+            <label class="theme-switch">
+              <input type="checkbox" />
+              <div class="slider round"></div>
+            </label>
+          </span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- Home Section -->
+      <section id="home">
+        <div class="title-group">
+          <h1>Custom Title Here</h1>
+          <h2>Welcome To The Website!</h2>
+        </div>
+      </section>
+      <!-- About -->
+      <section id="about">
+        <h1>Undraw Illustrations</h1>
+        <div class="about-container">
+          <div class="image-container">
+            <h2>Innovation Web</h2>
+            <img
+              src="img/undraw_proud_coder_light.svg"
+              alt="Proud Coder"
+              id="image1"
+            />
+          </div>
+          <div class="image-container">
+            <h2>Problem Solving</h2>
+            <img
+              src="img/undraw_feeling_proud_light.svg"
+              alt="Feeling Proud"
+              id="image2"
+            />
+          </div>
+          <div class="image-container">
+            <h2>High Concept</h2>
+            <img
+              src="img/undraw_conceptual_idea_light.svg"
+              alt="Conceptual Idea Light"
+              id="image3"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Projects -->
+      <section id="projects">
+        <h1>Buttons</h1>
+        <div class="buttons">
+          <button class="primary">Primary</button>
+          <button class="secondary">Secondary</button>
+          <button class="primary" disabled>Disabled</button>
+          <button class="primary">Outline</button>
+          <button class="outline secondary">Alt Outline</button>
+          <button class="outline" disabled>Disabled</button>
+        </div>
+        <div class="text-box" id="text-box">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non iure
+            quis necessitatibus soluta inventore accusantium vel optio,
+            assumenda molestiae provident fuga eligendi ratione harum vitae
+            minima, quibusdam repudiandae rem dignissimos.
+          </p>
+        </div>
+      </section>
+      <!-- Contact -->
+      <section id="contact">
+        <div class="social-icons">
+          <i class="fab fa-facebook fa-2x"></i>
+          <i class="fab fa-instagram fa-2x"></i>
+          <i class="fab fa-github fa-2x"></i>
+          <i class="fab fa-youtube fa-2x"></i>
+          <i class="fab fa-codepen fa-2x"></i>
+          <i class="fab fa-twitter fa-2x"></i>
+        </div>
+      </section>
+    </main>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
